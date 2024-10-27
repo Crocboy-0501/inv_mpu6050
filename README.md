@@ -5,7 +5,8 @@ The DMP is a fast, low power, programmable, embedded lightweight processor in th
 
 Dir tree:
 
-│  CMakeLists.txt
+```txt
+├─CMakeLists.txt
 ├─eMPL
 │  │  dmp_utils.c
 │  │  inv_mpu.c
@@ -20,6 +21,7 @@ Dir tree:
 │      inv_mpu6050.h
 └─src
         inv_mpu6050.c
+```
 
 As we all known, InvenSense has provided the DMP driver. You would need to provide the following APIs to support I2C read/write functionality, system clock access, hardware interrupts callbacks and logging corresponding to the platform on which the MD6.12 is to be ported. 
 
